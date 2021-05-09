@@ -6,7 +6,7 @@ RUN apk add php
 # create folder /app inside the container
 WORKDIR /app
 # copy source code into /app
-COPY src/index.php/app
+COPY src/index.php /app
 # run the following command inside the container
 # php -f index.php -S 0.0.0.0:8080
 # run the following command
