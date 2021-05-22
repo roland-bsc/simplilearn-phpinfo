@@ -17,3 +17,4 @@ CMD ["-f", "index.php", "-S", "0.0.0.0:8080"]
 # with brackets: php -f index.php -S 0.0.0.0:8080 -> PID 1 = php
 # expose port 8080 inside the container
 EXPOSE 8080
+
