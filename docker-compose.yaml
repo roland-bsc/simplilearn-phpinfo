@@ -6,7 +6,7 @@ services:
         constraints:
           - node.role == worker
       replicas: 2
-    image: DOCKERHUB_RABELLAATBSC/simplilearn-phpinfo:latest
+    image: rabellaatbsc/simplilearn-phpinfo:latest
     ports:
       - 80:8080
 version:n '3.8'
