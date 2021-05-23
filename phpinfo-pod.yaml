@@ -4,7 +4,7 @@ metadata:
   name: simplilearn-phpinfo-pod
 spec:
   containers:
-    - name: simplilearn-phpinfo:latest
+    - name: simplilearn-phpinfo-container
       image: rabellaatbsc/simplilearn-phpinfo:latest
       command: 
         - "php" 
@@ -13,4 +13,4 @@ spec:
         - "index.php"
         - "-S"
         - "0.0.0.0:8080"
-        
+ 
