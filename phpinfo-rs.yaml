@@ -22,3 +22,8 @@ spec:
           - "index.php"
           - "-S"
           - "0.0.0.0:8080"
+      - name: mysql-container
+        image: mysql:latest
+        env:
+          - name: MYSQL_ROOT_PASSWORD
+            value: '1234'
