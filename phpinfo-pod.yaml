@@ -4,7 +4,7 @@ metadata:
   name: simplilearn-phpinfo-pod
 spec:
   containers:
-    - name: simplilearn-phpinfo-container
+    - name: rabellaatbsc/simplilearn-phpinfo-dca-2021-05:latest
       image: rabellaatbsc/simplilearn-phpinfo-dca-2021-05:latest
       command: 
         - "php" 
