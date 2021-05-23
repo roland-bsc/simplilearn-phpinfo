@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: simplilearn-phpinfo-container
-      image: rabellaatbsc/simplilearn-phpinfo:latest
+      image: rabellaatbsc/simplilearn-phpinfo-dca-2021-05:latest
       command: 
         - "php" 
       args: 
